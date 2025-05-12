@@ -37,7 +37,6 @@ SummarEase is an open-source tool that transforms lengthy PDFs into clear, conci
 1. Clone the repository
 ```bash
 git clone https://github.com/manikanta2026/Doc-Assistant
-cd summarization-app
 ```
 
 2. Install frontend dependencies
@@ -47,6 +46,7 @@ npm install
 
 3. Install backend dependencies
 ```bash
+cd backend
 pip install -r requirements.txt
 ```
 
