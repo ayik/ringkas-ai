@@ -92,6 +92,13 @@ The application will be available at `http://localhost:5173`
 3. Click **Summarize** or **Generate Q&A**  
 4. Use the **Copy** button to save the results
 
+## 🎥 Live Demo in Action
+
+Watch how easy it is to go from PDF → Summary → Q&A in seconds!
+
+![Doc-Assistant Demo](https://raw.githubusercontent.com/manikanta2026/Doc-Assistant/main/src/assets/Animation.gif)
+
+
 ## 🤝 Contributing
 
 We welcome all contributions!  
