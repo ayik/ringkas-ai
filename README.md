@@ -1,43 +1,60 @@
-# Doc-Assistant - PDF Summarization and Q&A Tool
+# 📄 Doc-Assistant – Smart PDF Summarization & Q&A Generator
 
-Doc-Assistant is an open-source tool that transforms lengthy PDFs into clear, concise summaries and generates Q&A pairs using AI technology.
+![GitHub Repo stars](https://img.shields.io/github/stars/manikanta2026/Doc-Assistant?style=flat-square)
+![GitHub forks](https://img.shields.io/github/forks/manikanta2026/Doc-Assistant?style=flat-square)
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)
 
-## Features
 
-- **PDF Processing**: Upload and process PDF documents
-- **Multiple Summary Types**:
-  - Abstract (Short summary)
-  - Summary (Medium-length summary)
-  - Article (Detailed summary)
-- **Q&A Generation**: Automatically generate relevant questions and answers from the PDF content
-- **Copy Functionality**: Easy one-click copy for both summaries and Q&A
-- **Modern UI**: Clean and responsive interface using React and Tailwind CSS
+**Doc-Assistant** is an open-source web app that transforms long, complex PDFs into concise summaries and generates intelligent Q&A pairs — all powered by AI.
 
-## Tech Stack
+🚀 Perfect for students, researchers, and professionals who want to save time and extract insights fast.
+
+---
+
+## ✨ Features
+
+- 📥 **PDF Upload & Processing**  
+- 🧠 **Summarization Options**  
+  - **Abstract** – Short and crisp  
+  - **Summary** – Balanced and informative  
+  - **Article** – Full-length overview  
+- ❓ **Auto Q&A Generation**  
+- 📋 **One-Click Copy**  
+- 💻 **Modern UI** – Clean, responsive, and easy to use
+
+---
+
+## 🧪 Live Demo
+
+👉 [Try it here](https://doc-assistant-frontend.vercel.app/)
+
+## 🛠 Tech Stack
 
 ### Frontend
-- React
-- Tailwind CSS
-- Vite
+- ⚛️ React  
+- 💨 Tailwind CSS  
+- ⚡ Vite
 
 ### Backend
-- Flask
-- PyMuPDF
-- Google Generative AI (Gemini)
+- 🐍 Flask  
+- 📄 PyMuPDF  
+- 🤖 Google Generative AI (Gemini)
 
+---
 
+## 🔧 Prerequisites
 
-### Prerequisites
 - Node.js (v16 or higher)
 - Python (v3.8 or higher)
 - Google API Key for Gemini
 
-### Installation
+---
 
-1. Clone the repository
-```bash
-git clone https://github.com/manikanta2026/Doc-Assistant
-```
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/manikanta2026/Doc-Assistant
 
 2. Install frontend dependencies
 ```bash
@@ -55,31 +72,30 @@ pip install -r requirements.txt
 GOOGLE_API_KEY=your_api_key_here
 ```
 
-### Running the Application
+## ▶️ Running Locally
 
 1. Start the frontend development server:
 ```bash
 npm run dev
 ```
-
-2. Start the backend server:
+Start the backend server:
 ```bash
 python backend/logic.py
 ```
 
 The application will be available at `http://localhost:5173`
 
-## Usage
+## 📘 Usage Guide
 
-1. Access the web interface
-2. Upload a PDF file using the file input
-3. Choose summary type (Abstract/Summary/Article)
-4. Click "Summarize" to generate a summary or "Generate Q&A" for questions and answers
-5. Use the copy button to copy the generated content
+1. Upload a PDF document  
+2. Choose a summary type: **Abstract / Summary / Article**  
+3. Click **Summarize** or **Generate Q&A**  
+4. Use the **Copy** button to save the results
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome all contributions!  
+If you have ideas or improvements, fork the repo and create a pull request. ⭐
 
 
 ## Live Website
